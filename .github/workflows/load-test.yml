@@ -1,0 +1,52 @@
+name: API Load and Performance Testing
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # Allows manual triggers from GitHub Actions UI
+
+jobs:
+  load-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: './load_testing/package.json'
+
+      - name: Install Backend & Load Testing Dependencies
+        run: |
+          cd web/backend
+          npm install
+          cd ../../load_testing
+          npm install
+
+      - name: Start Backend API Server
+        run: |
+          cd web/backend
+          # Run backend in development/fallback mode without Firebase required
+          npm start &
+          
+          # Wait for API server to respond on port 5000
+          echo "Waiting for backend API server to launch..."
+          until curl -sf http://localhost:5000/api/auth/login > /dev/null; do
+            sleep 2
+          done
+          echo "Backend server is up and responsive!"
+
+      - name: Execute Baseline / Load Test
+        env:
+          TARGET_URL: 'http://localhost:5000/api/auth/login'
+          CONCURRENT_USERS: '100'
+          TEST_DURATION: '60'
+        run: |
+          cd load_testing
+          npm start

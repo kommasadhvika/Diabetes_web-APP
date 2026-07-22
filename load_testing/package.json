@@ -1,0 +1,13 @@
+{
+  "name": "diapredict-load-testing",
+  "version": "1.0.0",
+  "description": "Baseline and Load Testing Suite using Autocannon",
+  "main": "run_load_test.js",
+  "scripts": {
+    "start": "node run_load_test.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.15.0",
+    "dotenv": "^16.4.5"
+  }
+}
