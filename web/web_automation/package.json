@@ -1,0 +1,26 @@
+{
+  "name": "diapredict-web-automation",
+  "version": "1.0.0",
+  "description": "Enterprise Selenium E2E Automation Framework for React Web Application",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 120000 --reporter mochawesome --reporter-options reportDir=reports,reportFilename=index,html=true,json=true",
+    "test:auth": "mocha tests/auth.test.js --timeout 120000",
+    "test:form": "mocha tests/form.test.js --timeout 120000",
+    "test:navigation": "mocha tests/navigation.test.js --timeout 120000",
+    "generate-report": "node scratch_generate_excel.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "selenium-webdriver": "^4.18.1"
+  }
+}

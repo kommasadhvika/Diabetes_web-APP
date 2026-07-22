@@ -1,0 +1,284 @@
+{
+  "496z4i6ra5x": {
+    "userId": "496z4i6ra5x",
+    "dietType": "Indian-Vegetarian",
+    "calorieTarget": 1781,
+    "waterRecommendationLiters": 2.3,
+    "schedule": [
+      {
+        "day": "Monday",
+        "breakfast": {
+          "name": "Oats Upma with veggies",
+          "calories": 424,
+          "carbs": 59,
+          "protein": 14,
+          "fat": 8,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Brown rice (1 cup), Dal tadka, Mixed vegetable sabzi",
+          "calories": 713,
+          "carbs": 110,
+          "protein": 24,
+          "fat": 14,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Mixed vegetable soup, Grilled Paneer (100g)",
+          "calories": 509,
+          "carbs": 17,
+          "protein": 31,
+          "fat": 27,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Roasted chana (handful)",
+          "calories": 170,
+          "carbs": 26,
+          "protein": 10,
+          "fat": 3,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1816
+      },
+      {
+        "day": "Tuesday",
+        "breakfast": {
+          "name": "Moong Dal Chilla (2) with mint chutney",
+          "calories": 373,
+          "carbs": 47,
+          "protein": 20,
+          "fat": 7,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Whole wheat chapati (2), Palak paneer, Cucumber salad",
+          "calories": 764,
+          "carbs": 68,
+          "protein": 34,
+          "fat": 25,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Soya chunks curry, Broccoli stir-fry",
+          "calories": 475,
+          "carbs": 25,
+          "protein": 37,
+          "fat": 14,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Walnuts & Almonds (10 total)",
+          "calories": 204,
+          "carbs": 5,
+          "protein": 5,
+          "fat": 19,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1816
+      },
+      {
+        "day": "Wednesday",
+        "breakfast": {
+          "name": "Vegetable Dalia",
+          "calories": 356,
+          "carbs": 54,
+          "protein": 12,
+          "fat": 5,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Quinoa pulav with chickpeas & curd",
+          "calories": 679,
+          "carbs": 93,
+          "protein": 25,
+          "fat": 12,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Chapati (1), Tofu bhurji, Green salad",
+          "calories": 526,
+          "carbs": 41,
+          "protein": 31,
+          "fat": 17,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Buttermilk (1 glass) with chia seeds",
+          "calories": 136,
+          "carbs": 9,
+          "protein": 5,
+          "fat": 3,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1697
+      },
+      {
+        "day": "Thursday",
+        "breakfast": {
+          "name": "Sprouted Moong Salad with paneer",
+          "calories": 441,
+          "carbs": 31,
+          "protein": 27,
+          "fat": 17,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Chapati (2), Bhindi Masala, Boondi raita (low-fat)",
+          "calories": 730,
+          "carbs": 81,
+          "protein": 20,
+          "fat": 20,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Clear vegetable broth, Moong dal khichdi (dry, 1 cup)",
+          "calories": 492,
+          "carbs": 76,
+          "protein": 17,
+          "fat": 7,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Cucumber slices with hummus",
+          "calories": 187,
+          "carbs": 14,
+          "protein": 7,
+          "fat": 10,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1850
+      },
+      {
+        "day": "Friday",
+        "breakfast": {
+          "name": "Ragi Roti (1) with curd",
+          "calories": 407,
+          "carbs": 61,
+          "protein": 10,
+          "fat": 8,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Brown rice (1 cup), Rajma curry, Stir-fry beans",
+          "calories": 696,
+          "carbs": 105,
+          "protein": 27,
+          "fat": 10,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Grilled mushroom and paneer salad with lime dressing",
+          "calories": 543,
+          "carbs": 14,
+          "protein": 32,
+          "fat": 31,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Sprouted salad (half cup)",
+          "calories": 153,
+          "carbs": 20,
+          "protein": 9,
+          "fat": 2,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1799
+      },
+      {
+        "day": "Saturday",
+        "breakfast": {
+          "name": "Idli (2) with sambar (no potatoes)",
+          "calories": 339,
+          "carbs": 64,
+          "protein": 10,
+          "fat": 3,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Millets roti (2), Baingan bharta, Dal fry",
+          "calories": 747,
+          "carbs": 85,
+          "protein": 25,
+          "fat": 17,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Methi thepla (2) with roasted flaxseed curd",
+          "calories": 560,
+          "carbs": 64,
+          "protein": 15,
+          "fat": 17,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Green tea & 2 digestive biscuits",
+          "calories": 161,
+          "carbs": 24,
+          "protein": 3,
+          "fat": 5,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1808
+      },
+      {
+        "day": "Sunday",
+        "breakfast": {
+          "name": "Besan Chilla (2) with low-fat curd",
+          "calories": 390,
+          "carbs": 44,
+          "protein": 19,
+          "fat": 8,
+          "time": "08:00 AM"
+        },
+        "lunch": {
+          "name": "Multi-grain chapati (2), Lauki chana dal, Tomato onion salad",
+          "calories": 645,
+          "carbs": 76,
+          "protein": 22,
+          "fat": 12,
+          "time": "01:30 PM"
+        },
+        "dinner": {
+          "name": "Stir-fry bell peppers, beans, paneer & cabbage soup",
+          "calories": 458,
+          "carbs": 20,
+          "protein": 27,
+          "fat": 24,
+          "time": "08:00 PM"
+        },
+        "snacks": {
+          "name": "Roasted makhana (1 cup)",
+          "calories": 187,
+          "carbs": 31,
+          "protein": 5,
+          "fat": 3,
+          "time": "05:00 PM"
+        },
+        "totalCalories": 1680
+      }
+    ],
+    "groceryList": [
+      "Oats",
+      "Upma",
+      "Veggies",
+      "Brown",
+      "Rice",
+      "Dal",
+      "Tadka",
+      "Mixed",
+      "Vegetable",
+      "Sabzi",
+      "Soup",
+      "Grilled",
+      "Paneer",
+      "Roasted",
+      "Chana"
+    ],
+    "aiExplanation": "This 7-day plan is structured specifically for a 20-year-old Male with Sedentary activity. We have targeted a daily intake of 1781 kcal with high fiber, lean proteins, and complex carbohydrates to improve your insulin sensitivity and support steady energy throughout the day.",
+    "groceryChecked": [],
+    "createdAt": "2026-06-17T18:22:44.745Z",
+    "updatedAt": "2026-06-17T18:22:44.745Z",
+    "id": "496z4i6ra5x"
+  }
+}

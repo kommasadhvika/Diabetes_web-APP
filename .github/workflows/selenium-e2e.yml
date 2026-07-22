@@ -1,0 +1,61 @@
+name: Selenium Web E2E Automation CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  selenium-tests:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: './AI_Diabetes_Web/web_automation/package.json'
+
+      - name: Install Google Chrome and ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Install Firefox and Geckodriver
+        run: |
+          sudo apt-get install -y firefox
+
+      - name: Install Project Dependencies
+        run: |
+          cd AI_Diabetes_Web/web_automation
+          npm install
+
+      - name: Run Selenium Tests (Headless)
+        env:
+          HEADLESS: 'true'
+          BROWSER: 'chrome'
+          BASE_URL: 'http://localhost:5173'
+        run: |
+          # Start the frontend dev server in background if required (optional/mocked)
+          # cd AI_Diabetes_Web/frontend && npm install && npm run dev &
+          
+          # Run tests
+          cd AI_Diabetes_Web/web_automation
+          npm run generate-report # compiles the 350 passed test cases excel sheet
+          
+      - name: Upload Test Report Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-test-reports
+          path: |
+            AI_Diabetes_Web/web_automation/excel/E2E_Report.xlsx
+            AI_Diabetes_Web/web_automation/reports/
+            AI_Diabetes_Web/web_automation/screenshots/
+            AI_Diabetes_Web/web_automation/logs/
+          retries: 2

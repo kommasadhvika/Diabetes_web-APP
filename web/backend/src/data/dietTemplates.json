@@ -1,0 +1,154 @@
+{
+  "Indian-Vegetarian": {
+    "breakfast": [
+      { "day": 1, "meal": "Oats Upma with veggies", "calories": 250, "carbs": 35, "protein": 8, "fat": 5 },
+      { "day": 2, "meal": "Moong Dal Chilla (2) with mint chutney", "calories": 220, "carbs": 28, "protein": 12, "fat": 4 },
+      { "day": 3, "meal": "Vegetable Dalia", "calories": 210, "carbs": 32, "protein": 7, "fat": 3 },
+      { "day": 4, "meal": "Sprouted Moong Salad with paneer", "calories": 260, "carbs": 18, "protein": 16, "fat": 10 },
+      { "day": 5, "meal": "Ragi Roti (1) with curd", "calories": 240, "carbs": 36, "protein": 6, "fat": 5 },
+      { "day": 6, "meal": "Idli (2) with sambar (no potatoes)", "calories": 200, "carbs": 38, "protein": 6, "fat": 2 },
+      { "day": 7, "meal": "Besan Chilla (2) with low-fat curd", "calories": 230, "carbs": 26, "protein": 11, "fat": 5 }
+    ],
+    "lunch": [
+      { "day": 1, "meal": "Brown rice (1 cup), Dal tadka, Mixed vegetable sabzi", "calories": 420, "carbs": 65, "protein": 14, "fat": 8 },
+      { "day": 2, "meal": "Whole wheat chapati (2), Palak paneer, Cucumber salad", "calories": 450, "carbs": 40, "protein": 20, "fat": 15 },
+      { "day": 3, "meal": "Quinoa pulav with chickpeas & curd", "calories": 400, "carbs": 55, "protein": 15, "fat": 7 },
+      { "day": 4, "meal": "Chapati (2), Bhindi Masala, Boondi raita (low-fat)", "calories": 430, "carbs": 48, "protein": 12, "fat": 12 },
+      { "day": 5, "meal": "Brown rice (1 cup), Rajma curry, Stir-fry beans", "calories": 410, "carbs": 62, "protein": 16, "fat": 6 },
+      { "day": 6, "meal": "Millets roti (2), Baingan bharta, Dal fry", "calories": 440, "carbs": 50, "protein": 15, "fat": 10 },
+      { "day": 7, "meal": "Multi-grain chapati (2), Lauki chana dal, Tomato onion salad", "calories": 380, "carbs": 45, "protein": 13, "fat": 7 }
+    ],
+    "dinner": [
+      { "day": 1, "meal": "Mixed vegetable soup, Grilled Paneer (100g)", "calories": 300, "carbs": 10, "protein": 18, "fat": 16 },
+      { "day": 2, "meal": "Soya chunks curry, Broccoli stir-fry", "calories": 280, "carbs": 15, "protein": 22, "fat": 8 },
+      { "day": 3, "meal": "Chapati (1), Tofu bhurji, Green salad", "calories": 310, "carbs": 24, "protein": 18, "fat": 10 },
+      { "day": 4, "meal": "Clear vegetable broth, Moong dal khichdi (dry, 1 cup)", "calories": 290, "carbs": 45, "protein": 10, "fat": 4 },
+      { "day": 5, "meal": "Grilled mushroom and paneer salad with lime dressing", "calories": 320, "carbs": 8, "protein": 19, "fat": 18 },
+      { "day": 6, "meal": "Methi thepla (2) with roasted flaxseed curd", "calories": 330, "carbs": 38, "protein": 9, "fat": 10 },
+      { "day": 7, "meal": "Stir-fry bell peppers, beans, paneer & cabbage soup", "calories": 270, "carbs": 12, "protein": 16, "fat": 14 }
+    ],
+    "snacks": [
+      { "day": 1, "meal": "Roasted chana (handful)", "calories": 100, "carbs": 15, "protein": 6, "fat": 2 },
+      { "day": 2, "meal": "Walnuts & Almonds (10 total)", "calories": 120, "carbs": 3, "protein": 3, "fat": 11 },
+      { "day": 3, "meal": "Buttermilk (1 glass) with chia seeds", "calories": 80, "carbs": 5, "protein": 3, "fat": 2 },
+      { "day": 4, "meal": "Cucumber slices with hummus", "calories": 110, "carbs": 8, "protein": 4, "fat": 6 },
+      { "day": 5, "meal": "Sprouted salad (half cup)", "calories": 90, "carbs": 12, "protein": 5, "fat": 1 },
+      { "day": 6, "meal": "Green tea & 2 digestive biscuits", "calories": 95, "carbs": 14, "protein": 2, "fat": 3 },
+      { "day": 7, "meal": "Roasted makhana (1 cup)", "calories": 110, "carbs": 18, "protein": 3, "fat": 2 }
+    ]
+  },
+  "Indian-Non-Vegetarian": {
+    "breakfast": [
+      { "day": 1, "meal": "Egg white omelet (3 whites) with whole wheat toast", "calories": 210, "carbs": 16, "protein": 18, "fat": 4 },
+      { "day": 2, "meal": "Chicken Keema Paratha (1, low oil)", "calories": 280, "carbs": 24, "protein": 18, "fat": 8 },
+      { "day": 3, "meal": "Boiled eggs (2) with raw cucumber & carrot slices", "calories": 170, "carbs": 4, "protein": 13, "fat": 10 },
+      { "day": 4, "meal": "Sprouted Moong Salad with chopped chicken breast", "calories": 270, "carbs": 16, "protein": 24, "fat": 8 },
+      { "day": 5, "meal": "Scrambled eggs (1 whole, 2 whites) with spinach", "calories": 190, "carbs": 3, "protein": 16, "fat": 11 },
+      { "day": 6, "meal": "Oats porridge with almonds & flax seeds", "calories": 220, "carbs": 26, "protein": 8, "fat": 7 },
+      { "day": 7, "meal": "Paneer & egg bhurji with 1 slice multi-grain bread", "calories": 260, "carbs": 14, "protein": 20, "fat": 10 }
+    ],
+    "lunch": [
+      { "day": 1, "meal": "Brown rice (1 cup), Chicken curry (skinless, 150g), Salad", "calories": 460, "carbs": 46, "protein": 32, "fat": 12 },
+      { "day": 2, "meal": "Whole wheat chapati (2), Fish curry (non-fried), Spinach salad", "calories": 440, "carbs": 38, "protein": 30, "fat": 12 },
+      { "day": 3, "meal": "Quinoa pulav with chicken cubes & salad", "calories": 430, "carbs": 42, "protein": 28, "fat": 9 },
+      { "day": 4, "meal": "Chapati (2), Dal fry, Egg bhurji (2 eggs)", "calories": 450, "carbs": 44, "protein": 22, "fat": 14 },
+      { "day": 5, "meal": "Brown rice (1 cup), Grilled fish (150g), Cabbage stir-fry", "calories": 420, "carbs": 45, "protein": 32, "fat": 8 },
+      { "day": 6, "meal": "Millets chapati (2), Chicken saag (spinach chicken)", "calories": 450, "carbs": 36, "protein": 30, "fat": 13 },
+      { "day": 7, "meal": "Multi-grain chapati (2), Masoor dal, Egg white curry", "calories": 410, "carbs": 48, "protein": 24, "fat": 9 }
+    ],
+    "dinner": [
+      { "day": 1, "meal": "Grilled chicken breast (150g), Steamed broccoli & carrots", "calories": 280, "carbs": 12, "protein": 34, "fat": 6 },
+      { "day": 2, "meal": "Baked salmon (150g), Asparagus spears, Cucumber salad", "calories": 310, "carbs": 6, "protein": 32, "fat": 14 },
+      { "day": 3, "meal": "Chicken soup with mixed vegetables & 1 Roti", "calories": 300, "carbs": 26, "protein": 24, "fat": 8 },
+      { "day": 4, "meal": "Tandoori chicken (2 pieces), Mint raita, Green salad", "calories": 320, "carbs": 8, "protein": 36, "fat": 12 },
+      { "day": 5, "meal": "Stir-fry chicken cubes with bell peppers & mushrooms", "calories": 290, "carbs": 10, "protein": 30, "fat": 10 },
+      { "day": 6, "meal": "Mutton clear soup (lean cuts), Roasted cauliflower", "calories": 270, "carbs": 8, "protein": 26, "fat": 12 },
+      { "day": 7, "meal": "Egg drop vegetable soup, Grilled Paneer (80g)", "calories": 290, "carbs": 10, "protein": 20, "fat": 16 }
+    ],
+    "snacks": [
+      { "day": 1, "meal": "1 boiled egg white & green tea", "calories": 60, "carbs": 1, "protein": 6, "fat": 0 },
+      { "day": 2, "meal": "Almonds (10) and Walnuts (4)", "calories": 130, "carbs": 4, "protein": 3, "fat": 12 },
+      { "day": 3, "meal": "Sprouted chickpeas salad", "calories": 100, "carbs": 14, "protein": 5, "fat": 1 },
+      { "day": 4, "meal": "1 small apple", "calories": 80, "carbs": 20, "protein": 0, "fat": 0 },
+      { "day": 5, "meal": "Buttermilk (1 glass)", "calories": 60, "carbs": 4, "protein": 2, "fat": 1 },
+      { "day": 6, "meal": "Roasted pumpkin seeds (2 tbsp)", "calories": 120, "carbs": 4, "protein": 5, "fat": 10 },
+      { "day": 7, "meal": "Cucumber slices with salt & pepper", "calories": 30, "carbs": 4, "protein": 1, "fat": 0 }
+    ]
+  },
+  "International-Vegetarian": {
+    "breakfast": [
+      { "day": 1, "meal": "Avocado toast on whole-wheat bread", "calories": 260, "carbs": 22, "protein": 6, "fat": 16 },
+      { "day": 2, "meal": "Greek yogurt (low fat) with chia seeds & blueberries", "calories": 180, "carbs": 14, "protein": 15, "fat": 4 },
+      { "day": 3, "meal": "Oatmeal cooked in almond milk with walnuts", "calories": 240, "carbs": 28, "protein": 7, "fat": 9 },
+      { "day": 4, "meal": "Tofu scramble with spinach & mushrooms", "calories": 210, "carbs": 6, "protein": 16, "fat": 12 },
+      { "day": 5, "meal": "Chia seed pudding with unsweetened almond milk", "calories": 160, "carbs": 12, "protein": 5, "fat": 9 },
+      { "day": 6, "meal": "Protein smoothie (vegan protein, spinach, almond milk)", "calories": 190, "carbs": 10, "protein": 22, "fat": 5 },
+      { "day": 7, "meal": "Whole wheat pancakes (2 small) with sugar-free syrup", "calories": 220, "carbs": 32, "protein": 8, "fat": 4 }
+    ],
+    "lunch": [
+      { "day": 1, "meal": "Quinoa salad with black beans, avocado & lime vinaigrette", "calories": 410, "carbs": 48, "protein": 14, "fat": 15 },
+      { "day": 2, "meal": "Mediterranean wrap (whole wheat wrap, hummus, cucumber, olives)", "calories": 380, "carbs": 42, "protein": 10, "fat": 12 },
+      { "day": 3, "meal": "Lentil soup with a side of mixed baby greens", "calories": 350, "carbs": 46, "protein": 18, "fat": 6 },
+      { "day": 4, "meal": "Tofu buddha bowl (quinoa, roasted tofu, broccoli, tahini)", "calories": 430, "carbs": 38, "protein": 20, "fat": 18 },
+      { "day": 5, "meal": "Black bean burger patty with avocado salad (no bun)", "calories": 390, "carbs": 28, "protein": 15, "fat": 18 },
+      { "day": 6, "meal": "Hummus platter with celery, carrot sticks & 1 small pita", "calories": 340, "carbs": 36, "protein": 10, "fat": 14 },
+      { "day": 7, "meal": "Stir-fried tofu, broccoli & mushrooms over brown rice", "calories": 400, "carbs": 45, "protein": 16, "fat": 12 }
+    ],
+    "dinner": [
+      { "day": 1, "meal": "Baked spaghetti squash with marinara sauce & mushrooms", "calories": 260, "carbs": 32, "protein": 6, "fat": 8 },
+      { "day": 2, "meal": "Cauliflower steak with roasted asparagus & almonds", "calories": 280, "carbs": 16, "protein": 8, "fat": 18 },
+      { "day": 3, "meal": "Vegetable minestrone soup with side salad", "calories": 250, "carbs": 30, "protein": 8, "fat": 6 },
+      { "day": 4, "meal": "Grilled vegetable skewers with tofu & chimichurri", "calories": 290, "carbs": 12, "protein": 15, "fat": 16 },
+      { "day": 5, "meal": "Zucchini noodles (zoodles) with walnut pesto & cherry tomatoes", "calories": 310, "carbs": 14, "protein": 6, "fat": 24 },
+      { "day": 6, "meal": "Stuffed bell peppers (quinoa, black beans, salsa)", "calories": 320, "carbs": 42, "protein": 12, "fat": 8 },
+      { "day": 7, "meal": "Roasted butternut squash soup with pumpkin seeds", "calories": 270, "carbs": 28, "protein": 5, "fat": 12 }
+    ],
+    "snacks": [
+      { "day": 1, "meal": "Celery sticks with peanut butter (1 tbsp)", "calories": 110, "carbs": 6, "protein": 4, "fat": 8 },
+      { "day": 2, "meal": "Mixed berries (half cup)", "calories": 40, "carbs": 10, "protein": 1, "fat": 0 },
+      { "day": 3, "meal": "Pumpkin seeds (1 ounce)", "calories": 150, "carbs": 4, "protein": 7, "fat": 12 },
+      { "day": 4, "meal": "Greek yogurt (half cup, plain)", "calories": 90, "carbs": 4, "protein": 10, "fat": 2 },
+      { "day": 5, "meal": "Baby carrots with guacamole (2 tbsp)", "calories": 120, "carbs": 10, "protein": 2, "fat": 9 },
+      { "day": 6, "meal": "Air-popped popcorn (2 cups, no butter)", "calories": 60, "carbs": 12, "protein": 2, "fat": 1 },
+      { "day": 7, "meal": "A handful of pistachios (15)", "calories": 90, "carbs": 4, "protein": 3, "fat": 7 }
+    ]
+  },
+  "International-Non-Vegetarian": {
+    "breakfast": [
+      { "day": 1, "meal": "Smoked salmon and scrambled eggs (3 egg whites)", "calories": 220, "carbs": 2, "protein": 26, "fat": 10 },
+      { "day": 2, "meal": "Turkey bacon (2 slices) and 2 poached eggs with spinach", "calories": 240, "carbs": 3, "protein": 22, "fat": 14 },
+      { "day": 3, "meal": "Greek yogurt with chia seeds, walnuts, and strawberries", "calories": 210, "carbs": 12, "protein": 16, "fat": 9 },
+      { "day": 4, "meal": "Avocado and turkey slices on 1 slice protein bread", "calories": 250, "carbs": 14, "protein": 18, "fat": 12 },
+      { "day": 5, "meal": "Protein shake with whey, unsweetened almond milk, peanut butter", "calories": 230, "carbs": 8, "protein": 28, "fat": 10 },
+      { "day": 6, "meal": "Baked egg cups (2) with turkey, spinach, & bell peppers", "calories": 190, "carbs": 4, "protein": 18, "fat": 11 },
+      { "day": 7, "meal": "Oatmeal with protein powder stirred in, topped with pecans", "calories": 260, "carbs": 26, "protein": 18, "fat": 8 }
+    ],
+    "lunch": [
+      { "day": 1, "meal": "Grilled chicken breast (150g) with quinoa and spinach salad", "calories": 420, "carbs": 35, "protein": 38, "fat": 10 },
+      { "day": 2, "meal": "Baked cod fillets (150g), brown rice (half cup), steamed asparagus", "calories": 380, "carbs": 32, "protein": 30, "fat": 8 },
+      { "day": 3, "meal": "Turkey and avocado wrap (whole-wheat wrap, mustard, greens)", "calories": 390, "carbs": 28, "protein": 26, "fat": 14 },
+      { "day": 4, "meal": "Tuna salad (canned tuna in water, Greek yogurt dressing, celery) with lettuce wraps", "calories": 320, "carbs": 6, "protein": 34, "fat": 12 },
+      { "day": 5, "meal": "Shrimp stir-fry with mixed peppers, snow peas & cauliflower rice", "calories": 340, "carbs": 16, "protein": 32, "fat": 10 },
+      { "day": 6, "meal": "Grilled chicken Caesar salad (Greek yogurt-based dressing, no croutons)", "calories": 360, "carbs": 8, "protein": 34, "fat": 16 },
+      { "day": 7, "meal": "Baked salmon (150g) with wild rice (half cup) and roasted zucchini", "calories": 440, "carbs": 28, "protein": 34, "fat": 14 }
+    ],
+    "dinner": [
+      { "day": 1, "meal": "Sirloin steak (lean, 120g) with roasted Brussels sprouts", "calories": 330, "carbs": 10, "protein": 30, "fat": 16 },
+      { "day": 2, "meal": "Baked chicken breast with lemon herb sauce & broccoli", "calories": 290, "carbs": 8, "protein": 34, "fat": 10 },
+      { "day": 3, "meal": "Pan-seared cod with garlic butter & green beans", "calories": 310, "carbs": 6, "protein": 28, "fat": 15 },
+      { "day": 4, "meal": "Turkey meatballs (4) over zucchini noodles with marinara sauce", "calories": 320, "carbs": 16, "protein": 24, "fat": 14 },
+      { "day": 5, "meal": "Grilled pork loin chop (lean, 120g) with steamed cauliflower puree", "calories": 300, "carbs": 8, "protein": 28, "fat": 13 },
+      { "day": 6, "meal": "Chicken fajita bowl (chicken breast, sauteed peppers & onions, avocado, lettuce)", "calories": 350, "carbs": 14, "protein": 32, "fat": 15 },
+      { "day": 7, "meal": "Seafood broth with shrimp, scallops & celery", "calories": 260, "carbs": 8, "protein": 30, "fat": 6 }
+    ],
+    "snacks": [
+      { "day": 1, "meal": "Beef jerky (lean, low-sodium, 1 oz)", "calories": 90, "carbs": 3, "protein": 11, "fat": 2 },
+      { "day": 2, "meal": "Hard-boiled egg (1)", "calories": 70, "carbs": 1, "protein": 6, "fat": 5 },
+      { "day": 3, "meal": "A handful of almonds (12)", "calories": 80, "carbs": 3, "protein": 3, "fat": 7 },
+      { "day": 4, "meal": "Cucumber slices with smoked salmon (1 oz)", "calories": 60, "carbs": 2, "protein": 6, "fat": 2 },
+      { "day": 5, "meal": "Cottage cheese (low fat, half cup)", "calories": 90, "carbs": 4, "protein": 12, "fat": 2 },
+      { "day": 6, "meal": "Celery with almond butter (1 tbsp)", "calories": 110, "carbs": 5, "protein": 4, "fat": 9 },
+      { "day": 7, "meal": "A quarter cup of walnuts", "calories": 160, "carbs": 4, "protein": 4, "fat": 15 }
+    ]
+  }
+}

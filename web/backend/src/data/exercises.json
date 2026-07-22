@@ -1,0 +1,77 @@
+[
+  {
+    "id": "brisk-walking",
+    "name": "Brisk Walking",
+    "category": "Walking",
+    "difficulty": "Easy",
+    "durationMinutes": 30,
+    "benefits": "Improves cardiovascular health, lowers blood sugar levels, and boosts mood.",
+    "steps": [
+      "Warm up with a slow walk for 5 minutes.",
+      "Increase your pace until you are breathing harder but can still talk in sentences.",
+      "Keep your posture upright, shoulders relaxed, and arms swinging naturally.",
+      "Cool down with a slow walk for 5 minutes."
+    ],
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500&auto=format&fit=crop",
+    "gif": "https://media.giphy.com/media/l2JJE4hB379S45tS0/giphy.gif",
+    "videoUrl": "https://www.youtube.com/watch?v=u6u4BKwUVF8"
+  },
+  {
+    "id": "sun-salutation",
+    "name": "Surya Namaskar (Sun Salutation)",
+    "category": "Yoga",
+    "difficulty": "Medium",
+    "durationMinutes": 15,
+    "benefits": "Improves flexibility, strengthens the core, and helps regulate endocrine gland activity.",
+    "steps": [
+      "Pranamasana (Prayer Pose) at the front of the mat.",
+      "Hastauttanasana (Raised Arms Pose) and stretch backward.",
+      "Padahastasana (Hand to Foot Pose) and bend forward from the hips.",
+      "Ashwa Sanchalanasana (Equestrian Pose) stretching one leg back.",
+      "Dandasana (Plank Pose) holding a straight posture.",
+      "Ashtanga Namaskara (Salute with Eight Parts).",
+      "Bhujangasana (Cobra Pose) arching back.",
+      "Adho Mukha Svanasana (Downward Facing Dog Pose).",
+      "Repeat sequence on the other side."
+    ],
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&auto=format&fit=crop",
+    "gif": "https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif",
+    "videoUrl": "https://www.youtube.com/watch?v=O3L61P0Qf7Y"
+  },
+  {
+    "id": "interval-cardio",
+    "name": "Low-Impact Cardio Intervals",
+    "category": "Cardio",
+    "difficulty": "Medium",
+    "durationMinutes": 20,
+    "benefits": "Burns calories quickly, improves insulin sensitivity, and strengthens the heart.",
+    "steps": [
+      "Start with light jogging in place for 3 minutes.",
+      "Perform high knees (low impact version) for 1 minute.",
+      "Do shadow boxing or punches in place for 1 minute.",
+      "Perform low-impact jumping jacks (stepping out to sides) for 1 minute.",
+      "Rest for 1 minute and repeat the circuit 3 times."
+    ],
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500&auto=format&fit=crop",
+    "gif": "https://media.giphy.com/media/26ueYUlPAmruRyIQ8/giphy.gif",
+    "videoUrl": "https://www.youtube.com/watch?v=myCnGtId5UY"
+  },
+  {
+    "id": "full-body-stretching",
+    "name": "Full-Body Static Stretching",
+    "category": "Stretching",
+    "difficulty": "Easy",
+    "durationMinutes": 10,
+    "benefits": "Relieves muscle tension, prevents injury, and reduces stress levels.",
+    "steps": [
+      "Perform neck rolls in both directions slowly.",
+      "Reach your arms overhead and stretch toward the ceiling.",
+      "Perform a hamstring stretch by sitting and reaching for your toes.",
+      "Stretch your quadriceps by standing and pulling one foot toward your glutes.",
+      "Hold each stretch for 20-30 seconds without bouncing."
+    ],
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&auto=format&fit=crop",
+    "gif": "https://media.giphy.com/media/xT39Cvc82P6z9V314e/giphy.gif",
+    "videoUrl": "https://www.youtube.com/watch?v=g_tea8ZNk5A"
+  }
+]

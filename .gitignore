@@ -1,0 +1,25 @@
+# Dependencies
+**/node_modules/
+**/package-lock.json
+
+# Builds & Outputs
+**/build/
+**/dist/
+**/*.apk
+**/*.aar
+
+# Android specific
+APP/.gradle/
+APP/local.properties
+
+# Logs
+**/*.log
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.idea/
+.vscode/
+*.iml
