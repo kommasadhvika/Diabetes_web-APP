@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: './AI_Diabetes_Web/web_automation/package.json'
+          cache-dependency-path: './web/web_automation/package.json'
 
       - name: Install Google Chrome and ChromeDriver
         run: |
@@ -32,7 +32,7 @@ jobs:
 
       - name: Install Project Dependencies
         run: |
-          cd AI_Diabetes_Web/web_automation
+          cd web/web_automation
           npm install
 
       - name: Run Selenium Tests (Headless)
@@ -42,10 +42,10 @@ jobs:
           BASE_URL: 'http://localhost:5173'
         run: |
           # Start the frontend dev server in background if required (optional/mocked)
-          # cd AI_Diabetes_Web/frontend && npm install && npm run dev &
+          # cd web/frontend && npm install && npm run dev &
           
           # Run tests
-          cd AI_Diabetes_Web/web_automation
+          cd web/web_automation
           npm run generate-report # compiles the 350 passed test cases excel sheet
           
       - name: Upload Test Report Artifacts
@@ -54,8 +54,8 @@ jobs:
         with:
           name: selenium-test-reports
           path: |
-            AI_Diabetes_Web/web_automation/excel/E2E_Report.xlsx
-            AI_Diabetes_Web/web_automation/reports/
-            AI_Diabetes_Web/web_automation/screenshots/
-            AI_Diabetes_Web/web_automation/logs/
+            web/web_automation/excel/E2E_Report.xlsx
+            web/web_automation/reports/
+            web/web_automation/screenshots/
+            web/web_automation/logs/
           retries: 2
