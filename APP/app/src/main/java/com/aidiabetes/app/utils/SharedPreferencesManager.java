@@ -74,7 +74,7 @@ public class SharedPreferencesManager {
     }
 
     public boolean isApiModeEnabled() {
-        return sharedPreferences.getBoolean(KEY_API_MODE, false); // Default to direct Firebase integration
+        return sharedPreferences.getBoolean(KEY_API_MODE, true); // Default to backend API integration to sync with web database
     }
 
     public void setServerUrl(String url) {
